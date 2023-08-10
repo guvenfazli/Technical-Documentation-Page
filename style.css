@@ -271,6 +271,7 @@ h2{
     width: 80%;
     height: 400px;
     margin-left: 350px;
+    margin-bottom: 150px;
 }
 
 .main-1{
@@ -364,6 +365,10 @@ h2{
     line-height: 2;
 }
 
+.hello-text-shadow code{
+    padding-left: 20px;
+}
+
 
 .variable-header{
     display: flex;
@@ -394,7 +399,69 @@ h2{
 .declare-code{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: #f7f7f7;
     line-height: 2;
+}
+
+.declare-code code{
+    padding-left: 20px;
+}
+
+
+
+.variable-code{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    line-height: 2;
+}
+
+.variable-code code{
+    padding-left: 20px;
+}
+
+.global-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.global-header h1{
+    font-weight: 400;
+}
+
+.global-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.constants-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.constants-header h1{
+    font-weight: 400;
+}
+
+.constants-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.constants-code{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    line-height: 2;
+}
+
+.constants-code code{
+    padding-left: 20px;
 }
