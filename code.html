@@ -272,7 +272,91 @@
 		<div class="data-text">
 			<p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
 		</div>
+	</section>
 
+	<section class="main-section">
+		<div class="if-header">
+			<h1>if...else statement</h1>
+		</div>
+
+		<div class="if-text">
+			<p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
+		</div>
+		
+		<div class="if-code">
+			<code>if (condition) { statement_1; } else { statement_2; }</code>
+		</div>
+		
+		<div class="if-text">
+			<p>condition can be any expression that evaluates to true or false. See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.</p>
+			<p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
+		</div>
+	
+		<div class="if-code">
+			<code>
+				if (condition_1) { statement_1; } else if (condition_2) { <br> statement_2; } else if (condition_n) { statement_n; } else { <br> statement_last; }
+			</code>
+		</div>
+
+		<div class="if-text">
+			<p>
+				It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when glancing over the code. For example, do not use the following code:
+			</p>
+		</div>
+
+		<div class="if-code">
+			<code>if (x = y) { /* statements here */ }</code>
+		</div>
+
+		<div class="if-text">
+			<p>If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:</p>
+		</div>
+
+		<div class="if-code">
+			<code>if ((x = y)) { /* statements here */ }</code>
+		</div>
+	</section>
+
+	<section class="main-section">
+		<div class="while-header">
+			<h1>While Statement</h1>
+		</div>
+
+		<div class="while-text">
+			<p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
+		</div>
+
+		<div class="while-code">
+			<code>while (condition) statement</code>
+		</div>
+
+		<div class="while-text">
+			<p>If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.</p>
+			<p>The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops and control is passed to the statement following while.</p>
+			<p>To execute multiple statements, use a block statement ({ ... }) to group those statements.</p>
+			<p>Example:</p>
+			<p>The following while loop iterates as long as n is less than three:</p>
+		</div>
+
+		<div class="while-code">
+			<code>var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code>
+		</div>
+
+		<div class="while-text">
+			<p>With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values:</p>
+			<ul>
+				<li>After the first pass: n = 1 and x = 1</li>
+				<li>After the second pass: n = 2 and x = 3</li>
+				<li>After the third pass: n = 3 and x = 6</li>
+			</ul>
+			<p>After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.</p>
+		</div>
+	</section>
+
+	<section class="main-section">
+		<div class="function-header">
+			<h1>Function Declarations</h1>
+		</div>
 	</section>
 </body>
 </html>
