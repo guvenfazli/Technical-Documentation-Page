@@ -264,3 +264,33 @@ h2{
 .reference:hover{
     cursor: pointer;
 }
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 400px;
+    margin-left: 350px;
+    padding-top: 25px;
+}
+
+.intro-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.intro-header h1{
+    font-weight: 400;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    
+}
+
+.intro-text ul li{
+    margin-bottom: 30px;
+}
