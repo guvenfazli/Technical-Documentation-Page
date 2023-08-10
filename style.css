@@ -271,8 +271,17 @@ h2{
     width: 80%;
     height: 400px;
     margin-left: 350px;
+}
+
+.main-1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 400px;
+    margin-left: 350px;
     padding-top: 25px;
 }
+
 
 .intro-header{
     display: flex;
@@ -293,4 +302,99 @@ h2{
 
 .intro-text ul li{
     margin-bottom: 30px;
+}
+
+.should-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.should-header h1{
+    font-weight: 400;
+}
+
+.should-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.should-text ul li{
+    margin-bottom: 30px;
+}
+
+.js-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.js-header h1{ 
+    font-weight: 400;
+}
+
+.js-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.hello-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.hello-header h1{
+    font-weight: 400;
+}
+
+.hello-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.hello-text-shadow{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    background-color: #f7f7f7;
+    line-height: 2;
+}
+
+
+.variable-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.variable-header h1{
+    font-weight: 400;
+}
+
+.variable-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.declare-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.declare-header h1{
+    font-weight: 400;
+}
+
+.declare-code{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #f7f7f7;
+    line-height: 2;
 }
