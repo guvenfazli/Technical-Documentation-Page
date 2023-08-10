@@ -77,3 +77,190 @@ h2{
 .java-js:hover{
     cursor: pointer;
 }
+
+.hello-world{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.hello-world li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.hello-world:hover{
+    cursor: pointer;
+}
+
+.variables{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.variables li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.variables:hover{
+    cursor: pointer;
+}
+
+.declare{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.declare li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.declare:hover{
+    cursor: pointer;
+}
+
+.scope{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.scope li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.scope:hover{
+    cursor: pointer;
+}
+
+.global{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.global li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.global:hover{
+    cursor: pointer;
+}
+
+.constant{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.constant li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.constant:hover{
+    cursor: pointer;
+}
+
+.data{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.data li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.data:hover{
+    cursor: pointer;
+}
+
+.if-else{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.if-else li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.if-else:hover{
+    cursor: pointer;
+}
+
+.white-statement{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.white-statement li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.white-statement:hover{
+    cursor: pointer;
+}
+
+.function-dec{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.function-dec li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.function-dec:hover{
+    cursor: pointer;
+}
+
+.reference{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.reference li{
+    list-style-type: none;
+    padding-left: 8%;
+}
+
+.reference:hover{
+    cursor: pointer;
+}
