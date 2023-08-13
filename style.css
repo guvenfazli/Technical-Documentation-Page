@@ -1,5 +1,11 @@
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html a{
+    text-decoration: none;
+    color: black;
 }
 
 body{
@@ -305,6 +311,15 @@ h2{
     margin-bottom: 30px;
 }
 
+.main-section-1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+
 .should-header{
     display: flex;
     align-items: center;
@@ -325,6 +340,15 @@ h2{
     margin-bottom: 30px;
 }
 
+.main-section-2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 350px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+
 .js-header{
     display: flex;
     align-items: center;
@@ -339,6 +363,15 @@ h2{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+}
+
+.main-section-3{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 250px;
+    margin-left: 350px;
+    margin-bottom: 30px;
 }
 
 .hello-header{
@@ -369,6 +402,15 @@ h2{
     padding-left: 20px;
 }
 
+.main-section-4{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 250px;
+    margin-left: 350px;
+    margin-bottom: 80px;
+}
+
 
 .variable-header{
     display: flex;
@@ -385,6 +427,15 @@ h2{
     flex-direction: column;
     padding-left: 20px;
 }
+
+.main-section-5{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 520px;
+    margin-left: 350px;
+}
+
 
 .declare-header{
     display: flex;
@@ -408,7 +459,13 @@ h2{
     padding-left: 20px;
 }
 
-
+.main-section-6{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 400px;
+    margin-left: 350px;
+}
 
 .variable-code{
     display: flex;
@@ -420,6 +477,14 @@ h2{
 
 .variable-code code{
     padding-left: 20px;
+}
+
+.main-section-7{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 250px;
+    margin-left: 350px;
 }
 
 .global-header{
@@ -436,6 +501,14 @@ h2{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+}
+
+.main-section-8{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
+    margin-left: 350px;
 }
 
 .constants-header{
@@ -466,6 +539,14 @@ h2{
     padding-left: 20px;
 }
 
+.main-section-9{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    margin-left: 350px;
+}
+
 .data-header{
     display: flex;
     align-items: center;
@@ -480,6 +561,14 @@ h2{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+}
+
+.main-section-10{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
+    margin-left: 350px;
 }
 
 .if-header{
@@ -510,6 +599,14 @@ h2{
     padding-left: 20px;
 }
 
+.main-section-11{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 750px;
+    margin-left: 350px;
+}
+
 .while-header{
     display: flex;
     align-items: center;
@@ -536,6 +633,15 @@ h2{
 
 .while-code code{
     padding-left: 20px;
+}
+
+
+.main-section-12{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 550px;
+    margin-left: 350px;
 }
 
 .function-header{
@@ -565,3 +671,28 @@ h2{
 .function-code code{
     padding-left: 20px;
 }
+
+.main-section-13{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 200px;
+    margin-left: 350px;
+}
+
+.reference-header{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.reference-header h1{
+    font-weight: 400;
+}
+
+.reference-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
