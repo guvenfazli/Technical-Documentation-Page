@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 
-html a{
+html nav a{
     text-decoration: none;
     color: black;
 }
